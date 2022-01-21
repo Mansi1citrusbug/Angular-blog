@@ -1,0 +1,39 @@
+
+<div class="container displaydiv"  >
+        <table class="container table table-bordered bordered table-striped table-condensed datatable">
+    <thead>
+        <tr>
+            <th style="text-align: center;">Angular Bhakto</th>
+        </tr>
+    
+      
+
+ <tbody>
+      <div>
+        <tr>
+
+    
+            <td style="font-weight: bold;">Firstname</td>  
+          <td style="font-weight: bold;">age</td>
+          <td style="font-weight: bold;">Address</td>
+         
+        </tr>
+        <tr *ngFor="let data2 of data;">
+          <td style="width: 400px;">
+            {{data2.name}}
+          </td>
+          <td style="width: 400px;">
+            {{data2.age}}
+          </td>
+          <td style="width: 400px;">
+            {{data2.add}}
+          </td>
+
+      </div>
+
+     </tbody>
+
+     
+    </table>
+
+  </div>
